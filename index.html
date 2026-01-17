@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ezu Dev | First Website</title>
+  <title>Ezu | My First Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #4facfe, #00f2fe);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .card {
+      background: rgba(0,0,0,0.3);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 400px;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      background: white;
+      color: #0077ff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello 👋 I am Ezu</h1>
-  <p>This is my first website hosted on GitHub Pages.</p>
+  <div class="card">
+    <h1>Hello 👋 I am Ezu</h1>
+    <p>This is my first website hosted on GitHub Pages.</p>
+    <button onclick="alert('Thank you for visiting! 😊')">
+      Click Me
+    </button>
+  </div>
 </body>
 </html>
